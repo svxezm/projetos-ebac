@@ -1,1 +1,3 @@
 ./post-email/send-email.js
+*/**/node_modules
+*/**/dist
