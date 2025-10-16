@@ -1,0 +1,76 @@
+:root {
+    --accent: #6b41e1;
+    --background: #f5e6ff;
+}
+
+.text-colored {
+    color: var(--accent);
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: var(--accent);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: var(--accent);
+}
+
+#cabecalho .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-brand::selection {
+    background-color: #fff;
+    color: var(--accent);
+}
+
+.navbar-toggler {
+    background-color: var(--background);
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre,
+#cardapio {
+    background-color: var(--background);
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button  {
+    background-color: var(--accent);
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: var(--accent);
+}
+
+li {
+    list-style: none;
+}
+
+.social-links {
+    & li {
+        display: inline;
+    }
+
+    & a {
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

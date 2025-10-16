@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meus projetos</title>
+        <link rel="stylesheet" href="./lib/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="./assets/main.css">
+    </head>
+    <body>
+        <div id="project-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-flex w-100" src="./assets/images/wide-color-generator.webp" alt="Projeto gerador de cores" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-flex w-100" src="./assets/images/wide-tic-tac-toe.webp" alt="Projeto jogo da velha" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-flex w-100" src="./assets/images/wide-password-generator.webp" alt="Projeto gerador de senhas" />
+                </div>
+            </div>
+            <button type="button" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#project-carousel">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-slide="next" data-bs-target="#project-carousel">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#project-carousel" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/images/color-generator.webp" alt="Projeto gerador de cores" />
+                        <div class="card-body">
+                            <h4 class="card-title">Gerador de cores</h4>
+                            <p class="card-text">
+                                Este projeto gera cores aleatórias em RGB e as converte para outros códigos de cores, basta apenas clicar no botão.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://github.com/svxezm/color-generator" target="_blank">Repositório</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/images/tic-tac-toe.png" alt="Projeto jogo da velha" />
+                        <div class="card-body">
+                            <h4 class="card-title">Jogo da velha</h4>
+                            <p class="card-text">
+                                Um jogo que é aberto no terminal. Escolha X ou O e onde deseja colocar.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://github.com/svxezm/tic-tac-toe" target="_blank">Repositório</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 my-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/images/password-generator.webp" alt="Projeto gerador de senhas" />
+                        <div class="card-body">
+                            <h4 class="card-title">Gerador de senhas</h4>
+                            <p class="card-text">
+                                Um simples gerador de senhas. As senhas podem ser criadas, apagadas ou listadas com os argumentos listados na documentação. Todas as senhas são armazenadas no arquivo .txt, caso precise consultá-las depois.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://github.com/svxezm/password-generator" target="_blank">Repositório</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./lib/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
+

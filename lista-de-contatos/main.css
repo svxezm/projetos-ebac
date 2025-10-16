@@ -1,0 +1,105 @@
+:root {
+  --dark-pink: hsl(344.6, 100%, 13.7%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--dark-pink);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  background-color: hsl(345, 100%, 98.4%);
+  padding-top: 8rem;
+}
+
+header h1 {
+  font-size: 28pt;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  margin: 16px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  margin: 2.7rem auto 1.5rem auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto; 
+  column-gap: 10px;
+  height: 5rem;
+  width: 45rem;
+}
+
+form .name-label {
+  grid-area: 1 / 1;
+}
+
+form .phone-label {
+  grid-area: 1 / 2;
+}
+
+form #name-input {
+  grid-area: 2 / 1;
+}
+
+form #phone-input {
+  grid-area: 2 / 2;
+}
+
+form label {
+  text-align: left;
+}
+
+form input {
+  border: solid 1px hsl(345, 5%, 85%);
+}
+
+form button {
+  border: solid 1px hsl(344.6, 100%, 80%);
+  background-color: hsl(344.6, 100%, 85%);
+  grid-area: 2 / 3;
+  font-weight: 600;
+}
+
+form input,
+form button {
+  padding: 0.4rem;
+  font-size: 14pt;
+  border-radius: 8px;
+}
+
+table {
+  width: 35rem;
+  margin: 0 auto;
+}
+
+table th {
+  border-bottom: solid 2px var(--dark-pink);
+}
+
+table tr {
+  font-size: 18pt;
+}
+
+.light-row {
+  background-color: hsl(345, 15%, 90%);
+}
+
+.dark-row {
+  background-color: hsl(345, 10%, 80%);
+}
